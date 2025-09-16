@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'gh repo clone rsssharma224/web2-repo.git', branch: 'master'
+                git url: 'https://github.com/rsssharma224/web2-repo.git', branch: 'master'
             }
         }
 
